@@ -1,9 +1,11 @@
 import streamlit as st
 import numpy as np
-import tensorflow as tf
+import tflite_runtime.interpreter as tflite
+
 
 # Load TFLite model
-interpreter = tf.lite.Interpreter(model_path="variant_detector.tflite")
+interpreter = tflite.Interpreter(model_path="variant_detector.tflite")
+
 interpreter.allocate_tensors()
 
 input_details = interpreter.get_input_details()
