@@ -10,13 +10,11 @@ Predicts whether a sequence is likely to contain mutation-like patterns
 Displays prediction confidence
 Calculates GC Content
 Shows nucleotide distribution (A, C, G, and T)
-🛠️ Technologies Used
-Python
-NumPy
-TensorFlow Lite
-Pandas
-⚙️ Workflow
 
+Technologies Used- Python, NumPy, TensorFlow Lite, Pandas
+
+
+Workflow
 DNA Sequence Input
 → Input Validation
 → One-Hot Encoding
@@ -25,6 +23,5 @@ DNA Sequence Input
 → GC Content Analysis
 → Nucleotide Distribution
 
-🧪 Example Input
-
+Example Input
 ACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTAC
